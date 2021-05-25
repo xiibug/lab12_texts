@@ -21,7 +21,7 @@ script:
   - export CC=/usr/bin/gcc-6
   - export CXX=/usr/bin/g++-6
   
-  - cmake ../mp12_lab_Text
+  - cmake ../lab12_texts
   - make -j
   - ./test/Mp12_Text
 notifications:
